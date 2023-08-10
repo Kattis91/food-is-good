@@ -46,3 +46,44 @@ button {
     text-transform: uppercase;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 1300px) {
+
+    #one,
+    #two {
+        display: inline-block;
+        width: 43%;
+    }
+
+    #three,
+    #four {
+        display: inline-block;
+        width: 43%;
+    }
+
+    .question {
+        padding: px, 0;
+    }
+
+    #five,
+    #six {
+        display: inline-block;
+        width: 43%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+
+    #one,
+    #two,
+    #three,
+    #four,
+    #five,
+    #six {
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-left: 0;
+    }
+
+}

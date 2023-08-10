@@ -13,6 +13,20 @@ h1 {
     text-transform: uppercase;
 }
 
+nav > a {
+    float: right;
+    margin-top: -45px;
+    margin-right: 45px;
+    text-transform: uppercase;
+}
+
+.login {
+    background-color: lightgray;
+    width: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
 .question>div {
     margin: 15px 0;
 }

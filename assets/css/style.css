@@ -25,3 +25,18 @@ h1 {
     margin-bottom: 15px;
 }
 
+#one,
+#two,
+#three {
+    display: inline-block;
+    width: 29%;
+    margin-left: 20px;
+}
+
+#four,
+#five,
+#six {
+    display: inline-block;
+    width: 29%;
+    margin-left: 20px;
+}

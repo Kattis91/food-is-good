@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-color: lightblue;
+}
+
+h1, h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.question>div {
+    margin: 15px 0;
+}
+
+.question {
+    font-family: "Open sans", sans-serif;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+}
+

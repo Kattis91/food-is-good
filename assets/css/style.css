@@ -20,11 +20,19 @@ nav > a {
     text-transform: uppercase;
 }
 
+fieldset {
+    padding: 20px;
+}
+
 .login {
     background-color: lightgray;
     width: 50%;
     margin: 0 auto;
     box-sizing: border-box;
+}
+
+#username, #pword, #confirm_pword {
+    margin: 5px 0 20px 0;
 }
 
 .question>div {

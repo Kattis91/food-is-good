@@ -48,3 +48,13 @@ There aren't many people who don't like pizza, right?
 - The user gets an opportunity to retake the quiz for better results.
 
 - The user can also choose to exit the quiz.
+
+## Credits
+
+### Media
+
+- An image used for a favicon was downloaded from [Usplash](https://unsplash.com/photos/MJPr6nOdppw).
+
+- [Favicon Generator](https://favicon.io/favicon-converter/) was used to generate a favicon from the image.
+
+- The color combination was taken from the article "26 beautiful color combinations that'll inspire your next design" posted on [Webflow](https://webflow.com/blog/best-color-combinations).

@@ -20,3 +20,11 @@ There aren't many people who don't like pizza, right?
 - This section allows users to enter a username before starting a quiz.
 
 - It gives users information about how long a  username should be to get approved.
+
+### Quiz
+
+![image](assets/images/readme-images/quiz.jpg)
+
+- Every quiz page contains a question, three answer options, and a button to submit the selected answer.
+
+- After users submit the answer, the next question appears on the screen.

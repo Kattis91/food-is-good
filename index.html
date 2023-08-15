@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Quiz with food-related questions">
     <meta name="keywords" content="quiz, food, questions, dishes, score">
 
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Food is good!</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
-  </head>
 
-  <body>
+    <!--input to include favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+
+<body>
     <h1>Food is good! <i class="fa-solid fa-pizza-slice"></i></h1>
-
+     
+    <!--form that make it possible for a user to enter a username before starting the quiz-->
     <div id="form">
-      <form id="username-form">
-          <label for="username">Enter Username:</label>
-          <br>
-          <input id="username" type="text" name="username" placeholder="Hi! Your username must be at least 3 characters long!" required>
-          <br>
-          <input type="submit" value="enter">
-      </form>
-    </div>
-
-    <div class="quiz-area" id="quiz">
-      <h2 id="question">Question</h2>
-
-      <div>
-        <input id="a" type="radio" name="answer" class="answer" />
-        <label class="answer" for="a" id="a_text">Answer</label>
-      </div>
-      <div>
-        <input id="b" type="radio" name="answer" class="answer" />
-        <label class="answer" for="b" id="b_text">Answer</label>
-      </div>
-      <div>
-        <input id="c" type="radio" name="answer" class="answer" />
-        <label class="answer" for="c" id="c_text">Answer</label>
-      </div>
-
-      <div>
-        <button id="submit">Submit</button>
-      </div>
+        <form id="username-form">
+            <label for="username">Enter Username:</label>
+            <br>
+            <input id="username" type="text" name="username" placeholder="Hi! Your username must be at least 3 characters long!" required>
+            <br>
+            <input type="submit" value="enter">
+        </form>
     </div>
     
-    <div id="score-area">
-      <p class="scores">Correct Answers: <span id="score">0</span></p>
-      <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
-  </div>
+    <!--question-and-answers structure. Real questions and answers are added with the help of javaScript-->
+    <div id="quiz">
+        <h2 id="question">Question</h2>
 
-    <script
-      src="https://kit.fontawesome.com/50d3a141d5.js"
-      crossorigin="anonymous"
-    ></script>
+        <div>
+            <input id="a" type="radio" name="answer" class="answer">
+            <label class="answer" for="a" id="a_text">Answer</label>
+        </div>
+        <div>
+            <input id="b" type="radio" name="answer" class="answer">
+            <label class="answer" for="b" id="b_text">Answer</label>
+        </div>
+        <div>
+            <input id="c" type="radio" name="answer" class="answer">
+            <label class="answer" for="c" id="c_text">Answer</label>
+        </div>
+
+        <div>
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+    
+    <!--to enable a user to instantly see if the answer is right or wrong-->
+    <div id="score-area">
+        <p class="scores">Correct Answers: <span id="score">0</span></p>
+        <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
+    </div>
+
+    <script src="https://kit.fontawesome.com/50d3a141d5.js" crossorigin="anonymous"></script>
+
     <script src="assets/js/script.js"></script>
-  </body>
+  
+</body>
+
 </html>

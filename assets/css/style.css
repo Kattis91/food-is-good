@@ -57,6 +57,7 @@ input[type=submit]:hover {
     margin: 0 auto;
     max-width: 500px;
     background-color: #F1AC88;
+    /*to hide the quiz from the screen to make it appear a little bit later*/
     display: none;
 }
 
@@ -84,6 +85,7 @@ button:hover {
 #score-area {
     width: 30%;
     margin: 0 auto;
+    /*to hide the score-area from the screen to make it appear a little bit later*/
     display: none;
 }
 
@@ -116,3 +118,4 @@ button:hover {
     #score {
         margin-right: 25px;
     }
+}

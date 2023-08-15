@@ -12,3 +12,11 @@ Food is good is a website that contains a quiz with food-related questions. The 
 
 - The pizza font is added for an even more colorful imprint.
 There aren't many people who don't like pizza, right?
+
+### Username Form
+
+![image](assets/images/readme-images/username-form.jpg)
+
+- This section allows users to enter a username before starting a quiz.
+
+- It gives users information about how long a  username should be to get approved.

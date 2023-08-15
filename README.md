@@ -76,3 +76,19 @@ There aren't many people who don't like pizza, right?
 - Instructions on how to add a favicon in HTML are taken from [W3Schools](https://www.w3schools.com/html/html_favicon.asp).
 
 - [Font Awesome](https://fontawesome.com/icons/pizza-slice?f=classic&s=solid) was used to add a pizza icon to the heading.
+
+## Deployment
+
+1. Log in to GitHub. 
+
+ 2. Find the repository for this project, _Kattis91/food-is-good_.
+
+ 3. Click on the **Settings** link on the top navigation bar.
+
+ 4. Click on the **Pages** link on the left side navigation bar. 
+
+ 5. In the Build and Deployment section choose **main** from the drop-down select branch menu.
+
+ 6. Click **Save**. Your live Github Pages site is now deployed at the URL shown.
+
+The live link can be found here - https://kattis91.github.io/food-is-good/

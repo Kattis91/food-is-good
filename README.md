@@ -38,3 +38,13 @@ There aren't many people who don't like pizza, right?
 - If a user answers correctly, a point is added to correct answers area.
 
 - If a user answers wrong, a point is added to incorrect answers area.
+
+### Next step
+
+![image](assets/images/readme-images/next-step.jpg)
+
+- This page appears when the user is done with all the quiz questions.
+
+- The user gets an opportunity to retake the quiz for better results.
+
+- The user can also choose to exit the quiz.

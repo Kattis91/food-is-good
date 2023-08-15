@@ -1,3 +1,18 @@
+//to validate the username that should consist of at least 3 characters
+function handleSubmit(event) {
+    event.preventDefault();
+    let username = form.elements['username'].value;
+    
+    if(username.length < 3) {
+        alert("Please note that the username must consist of at least three characters!");
+    } else {
+        alert(`Hello ${form.elements['username'].value}! Welcome to the quiz!`);
+    }
+}
+
+let form = document.getElementById("username-form");
+form.addEventListener("submit", handleSubmit);
+
 /*
  Create an array of objects where each object include
  a question, three answer alternatives and the correct answer

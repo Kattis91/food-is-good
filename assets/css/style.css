@@ -13,28 +13,6 @@ h1 {
     text-transform: uppercase;
 }
 
-nav > a {
-    float: right;
-    margin-top: -45px;
-    margin-right: 45px;
-    text-transform: uppercase;
-}
-
-fieldset {
-    padding: 20px;
-}
-
-.login {
-    background-color: lightgray;
-    width: 50%;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
-
-#username, #pword, #confirm_pword {
-    margin: 5px 0 20px 0;
-}
-
 .question>div {
     margin: 15px 0;
 }
@@ -46,24 +24,6 @@ fieldset {
     padding: 5px 15px;
     margin-bottom: 15px;
     background-color: lightgray;
-}
-
-/*to get first three questions on the same row and last three on another row*/
-
-#one,
-#two,
-#three {
-    display: inline-block;
-    width: 29%;
-    margin-left: 20px;
-}
-
-#four,
-#five,
-#six {
-    display: inline-block;
-    width: 29%;
-    margin-left: 20px;
 }
 
 button {

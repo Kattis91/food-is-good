@@ -5,6 +5,7 @@ function handleSubmit(event) {
     
     if(username.length < 3) {
         alert("Please note that the username must consist of at least three characters!");
+        document.getElementById("username").value = "";
     } else {
         alert(`Hello ${form.elements['username'].value}! Welcome to the quiz!`);
 

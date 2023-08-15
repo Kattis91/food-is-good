@@ -21,10 +21,19 @@ h1 {
     color: #E8E8E8;
 }
 
-.question>div {
-    margin: 15px 0;
+#quiz {
+    font-family: "Open Sans", sans-serif;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: #F1AC88;
 }
 
+#quiz>div {
+    margin: 15px 0;
+}
 
 button {
     padding: 10px 15px;

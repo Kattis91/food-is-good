@@ -58,3 +58,13 @@ There aren't many people who don't like pizza, right?
 - [Favicon Generator](https://favicon.io/favicon-converter/) was used to generate a favicon from the image.
 
 - The color combination was taken from the article "26 beautiful color combinations that'll inspire your next design" posted on [Webflow](https://webflow.com/blog/best-color-combinations).
+
+### Content
+
+- Instructions on how to make a quiz using JavaScript are taken from:
+  - YouTube:
+    - [Create a Quiz App using HTML CSS & JavaScript | Quiz Web App using JavaScript](https://www.youtube.com/watch?v=CqddbIrEM5I&t=994s).
+    - [How To Make Quiz App Using JavaScript | Build Quiz App With HTML CSS & JavaScript](https://www.youtube.com/watch?v=PBcqGxrr9g8).
+  - Articles:
+    - [Foolish Developer. Simple Quiz App Using JavaScript & HTML (Free Code)](https://foolishdeveloper.com/javascript-quiz-app/).
+    - [Sitepoint. How to Make a Simple JavaScript Quiz](https://www.sitepoint.com/simple-javascript-quiz/).

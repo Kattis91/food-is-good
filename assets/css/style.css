@@ -25,14 +25,6 @@ h1 {
     margin: 15px 0;
 }
 
-.question {
-    font-family: "Open sans", sans-serif;
-    border: 3px solid black;
-    border-radius: 25px;
-    padding: 5px 15px;
-    margin-bottom: 15px;
-    background-color: lightgray;
-}
 
 button {
     padding: 10px 15px;

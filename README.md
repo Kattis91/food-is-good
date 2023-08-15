@@ -28,3 +28,13 @@ There aren't many people who don't like pizza, right?
 - Every quiz page contains a question, three answer options, and a button to submit the selected answer.
 
 - After users submit the answer, the next question appears on the screen.
+
+### Score Area
+
+![image](assets/images/readme-images/score.jpg)
+
+- This section shows correct and incorrect answers. Their value is set to 0.
+
+- If a user answers correctly, a point is added to correct answers area.
+
+- If a user answers wrong, a point is added to incorrect answers area.

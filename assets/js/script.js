@@ -61,3 +61,14 @@ const submit = document.getElementById("submit");
 //To keep track of the current quiz question.
 let currentQuiz = 0;
 
+startQuiz();
+
+function startQuiz() {
+    
+    const currentContent = content[currentQuiz];
+    question.innerText = currentContent.question;
+    aText.innerText = currentContent.a;
+    bText.innerText = currentContent.b;
+    cText.innerText = currentContent.c;
+}
+

@@ -106,6 +106,9 @@ function increaseWrongAnswer() {
     document.getElementById('incorrect').innerText = ++oldScore;
 }
 
+//to start function results() when the submit button is clicked 
+submit.addEventListener("click", results);
+
 function results() {
     
     const answer = getSelected();
@@ -132,4 +135,9 @@ function results() {
             <button onclick="replace();">No, thanks!</button>`;
         }
       }
+    }
+
+    function replace() {
+        document.write('<h1>Thank you for choosing our site!</h1>');
+        document.write('<p>Have a nice week and come back for our other theme quizzes</p>')
     }

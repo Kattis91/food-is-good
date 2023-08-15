@@ -101,3 +101,16 @@ button:hover {
 #incorrect {
     color: red;
 }
+
+/* Media queries */
+
+/* For larger to medium screens size from 1300px wide and down */
+@media screen and (max-width: 1300px) {
+
+    #score-area {
+        width: 35%;
+    }
+
+    #score {
+        margin-right: 25px;
+    }

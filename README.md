@@ -68,3 +68,5 @@ There aren't many people who don't like pizza, right?
   - Articles:
     - [Foolish Developer. Simple Quiz App Using JavaScript & HTML (Free Code)](https://foolishdeveloper.com/javascript-quiz-app/).
     - [Sitepoint. How to Make a Simple JavaScript Quiz](https://www.sitepoint.com/simple-javascript-quiz/).
+
+- The code that is used to build the score area and functions that are used to increase both score and amount of wrong answers are borrowed from Love Maths Project. 

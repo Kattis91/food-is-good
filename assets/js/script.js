@@ -7,6 +7,9 @@ function handleSubmit(event) {
         alert("Please note that the username must consist of at least three characters!");
     } else {
         alert(`Hello ${form.elements['username'].value}! Welcome to the quiz!`);
+
+        let formCase = document.getElementById("form");
+        formCase.style.display = "none";
     }
 }
 

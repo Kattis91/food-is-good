@@ -39,5 +39,12 @@ button {
     padding: 10px 15px;
     text-transform: uppercase;
     margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #783937;
+    font-weight: bold;
+    color: #F1AC88;
 }
 

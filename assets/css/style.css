@@ -63,6 +63,10 @@ input[type=submit]:hover {
     margin: 15px 0;
 }
 
+label {
+    cursor: pointer;
+}
+
 button {
     padding: 10px 15px;
     text-transform: uppercase;
@@ -74,4 +78,24 @@ button:hover {
     background-color: #783937;
     font-weight: bold;
     color: #F1AC88;
+}
+
+#score-area {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.scores {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#score {
+    margin-right: 50px;
+    color: green;
+}
+
+#incorrect {
+    color: red;
 }

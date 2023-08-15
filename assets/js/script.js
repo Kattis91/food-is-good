@@ -105,3 +105,31 @@ function increaseWrongAnswer() {
     let oldScore = document.getElementById('incorrect').innerText;
     document.getElementById('incorrect').innerText = ++oldScore;
 }
+
+function results() {
+    
+    const answer = getSelected();
+    
+     if(answer) {
+        if (answer === content[currentQuiz].correct) {
+           increaseScore();
+           
+        } else {
+            increaseWrongAnswer();
+        }
+        
+        currentQuiz++;
+        
+        if (currentQuiz < content.length) {
+            
+            startQuiz();
+            
+        } else {
+            
+            quiz.innerHTML = `
+            <h2>Would you like to retake the quiz?</h2>
+            <button onclick="history.go(0)">Yes</button>
+            <button onclick="replace();">No, thanks!</button>`;
+        }
+      }
+    }

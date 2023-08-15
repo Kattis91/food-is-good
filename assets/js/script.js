@@ -92,3 +92,16 @@ function getSelected() {
 
     return answer;
 }
+
+//to increase the score when the right answer is selected
+function increaseScore() {
+
+    let oldScore = document.getElementById('score').innerText;
+    document.getElementById('score').innerText = ++oldScore;
+}
+
+//to increase amount of incorrect answers when the wrong answer is selected
+function increaseWrongAnswer() {
+    let oldScore = document.getElementById('incorrect').innerText;
+    document.getElementById('incorrect').innerText = ++oldScore;
+}

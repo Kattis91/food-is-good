@@ -57,6 +57,7 @@ input[type=submit]:hover {
     margin: 0 auto;
     max-width: 500px;
     background-color: #F1AC88;
+    display: none;
 }
 
 #quiz>div {

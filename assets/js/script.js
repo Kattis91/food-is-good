@@ -10,6 +10,8 @@ function handleSubmit(event) {
 
         let formCase = document.getElementById("form");
         formCase.style.display = "none";
+
+        quiz.style.display = "block";
     }
 }
 

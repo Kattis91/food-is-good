@@ -70,3 +70,9 @@ There aren't many people who don't like pizza, right?
     - [Sitepoint. How to Make a Simple JavaScript Quiz](https://www.sitepoint.com/simple-javascript-quiz/).
 
 - The code that is used to build the score area and functions that are used to increase both score and amount of wrong answers are borrowed from Love Maths Project. 
+
+- [Google Fonts Site](https://fonts.google.com/) was used to import the fonts used on the website.
+
+- Instructions on how to add a favicon in HTML are taken from [W3Schools](https://www.w3schools.com/html/html_favicon.asp).
+
+- [Font Awesome](https://fontawesome.com/icons/pizza-slice?f=classic&s=solid) was used to add a pizza icon to the heading.

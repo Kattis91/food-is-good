@@ -8,12 +8,13 @@ function handleSubmit(event) {
         document.getElementById("username").value = "";
     } else {
         alert(`Hello ${form.elements['username'].value}! Welcome to the quiz!`);
-
+        
+        // to remove the form as soon as the username is validated and approved
         let formCase = document.getElementById("form");
         formCase.style.display = "none";
-
+        //to make the quiz appear on the screen as soon as the username is validated and approved
         quiz.style.display = "block";
-
+        //to make the score-area appear on the screen as soon as the username is validated and approved
         let score = document.getElementById("score-area");
         score.style.display = "block";
     }
@@ -155,7 +156,7 @@ function results() {
             
             quiz.innerHTML = `
             <h2>Would you like to retake the quiz?</h2>
-            <button onclick="history.go(0)">Yes</button>
+            <button onclick="history.go(0)";>Yes</button>
             <button onclick="replace();">No, thanks!</button>`;
         }
       }

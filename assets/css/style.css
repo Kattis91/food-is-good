@@ -36,6 +36,19 @@ h1 {
     height: 30px;
 }
 
+input[type=submit] {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #783937;
+    font-weight: bold;
+    color: #F1AC88;
+}
+
 #quiz {
     font-family: "Open Sans", sans-serif;
     border: 3px solid black;

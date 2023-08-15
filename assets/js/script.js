@@ -1,3 +1,7 @@
+/*
+ Create an array of objects where each object include
+ a question, three answer alternatives and the correct answer
+*/
 const content = [
     
     { 
@@ -43,3 +47,17 @@ const content = [
         correct: "c",
     },
 ];
+
+
+//Create variables to access elements from a HTML document.
+const quiz = document.getElementById("quiz");
+const answerElements = document.getElementsByClassName("answer");
+const question = document.getElementById("question");
+const aText = document.getElementById("a_text");
+const bText = document.getElementById("b_text");
+const cText = document.getElementById("c_text");
+const submit = document.getElementById("submit");
+
+//To keep track of the current quiz question.
+let currentQuiz = 0;
+

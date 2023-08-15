@@ -64,6 +64,7 @@ let currentQuiz = 0;
 startQuiz();
 
 function startQuiz() {
+    deselectAnswers();
     
     const currentContent = content[currentQuiz];
     question.innerText = currentContent.question;
@@ -72,3 +73,9 @@ function startQuiz() {
     cText.innerText = currentContent.c;
 }
 
+//to clear the previous selection before displaying a new quiz question
+function deselectAnswers() {
+    for (let i = 0; i < answerElements.length; i++) {
+    answerElements[i].checked = false;
+    }
+}

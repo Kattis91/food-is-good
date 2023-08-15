@@ -79,3 +79,16 @@ function deselectAnswers() {
     answerElements[i].checked = false;
     }
 }
+
+//to return the selected answer
+function getSelected() {
+    let answer;
+    
+    for (let i = 0; i < answerElements.length; i++) {
+        if(answerElements[i].checked) {
+            answer = answerElements[i].id;
+        }
+    }
+
+    return answer;
+}

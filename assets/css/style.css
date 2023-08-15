@@ -89,6 +89,8 @@ button:hover {
     display: inline-block;
     font-weight: bold;
     text-transform: uppercase;
+    margin-top: 30px;
+    color: #E8E8E8;
 }
 
 #score {

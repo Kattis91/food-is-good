@@ -84,6 +84,7 @@ button:hover {
 #score-area {
     width: 30%;
     margin: 0 auto;
+    display: none;
 }
 
 .scores {

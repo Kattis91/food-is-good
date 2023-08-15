@@ -12,6 +12,9 @@ function handleSubmit(event) {
         formCase.style.display = "none";
 
         quiz.style.display = "block";
+
+        let score = document.getElementById("score-area");
+        score.style.display = "block";
     }
 }
 

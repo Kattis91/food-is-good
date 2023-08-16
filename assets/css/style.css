@@ -73,7 +73,7 @@ html, body {
   .footer {
     flex-shrink: 0;
   }
-  
+
 #quiz {
     font-family: "Open Sans", sans-serif;
     border: 3px solid black;
@@ -81,6 +81,7 @@ html, body {
     padding: 25px;
     margin: 0 auto;
     max-width: 500px;
+    height: 340px;
     background-color: #F1AC88;
     /*to hide the quiz from the screen to make it appear a little bit later*/
     display: none;

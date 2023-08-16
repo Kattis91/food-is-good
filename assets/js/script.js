@@ -158,11 +158,13 @@ function results() {
             <h2>Would you like to retake the quiz?</h2>
             <button onclick="history.go(0)";>Yes</button>
             <button onclick="replace();">No, thanks!</button>`;
+            
+            quiz.style.height = "150px";
         }
       }
     }
 
     function replace() {
         document.write('<h1>Thank you for choosing our site!</h1>');
-        document.write('<p>Have a nice week and come back for our other theme quizzes</p>')
+        document.write('<p>Have a nice week and come back for our other theme quizzes</p>');
     }

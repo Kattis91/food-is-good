@@ -58,6 +58,9 @@ There aren't many people who don't like pizza, right?
 | Enter Username | When trying to click on the enter button without filling in any username, the user should get an ":exclamation: Please fill out this field" error message | Click on the enter button without filling in any username | The ":exclamation: Please fill out this field" error message appears when the username field remains blank |
 | Enter Username | When trying to enter a username with less than 3 characters, the user should get a “Please note that the username must consist of at least three characters!” alert | Try to enter a username that has less than 3 characters | The “Please note that the username must consist of at least three characters!” alert appears than username consists of 1-2 characters |
 | Enter Username | When entering an approved username, the user should be welcomed to the quiz, and after clicking on the “OK” button, the quiz box should appear on the screen | Enter a username that consists of 3 or more characters, and click on the enter button | “Hello ‘_your entered username_’! Welcome to the quiz!” alert appears on the screen. The quiz box appears on the screen after clicking on “OK” button |
+| Choose an answer | When a user chooses an answer and clicks on the submit button, the next question should appear on the screen | Choose an answer and click on the submit button | Next question appears on the screen |
+| Selecting the correct answer | When a user selects the correct answer, one point should be added to the area with correct answers | Select the correct answer and click on the submit button | The correct answers area got increased by one point |
+| Selecting the wrong answer | When a user selects the wrong answer, one point should be added to the area with incorrect answers | Select the wrong answer and click on the submit button | The incorrect answers area got increased by one point |
 
 ### Validator Testing
 

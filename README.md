@@ -49,6 +49,17 @@ There aren't many people who don't like pizza, right?
 
 - The user can also choose to exit the quiz.
 
+## Testing
+
+### Manual Testing
+
+| Feature | Expect | Action | Result |
+|---------|--------|--------|--------|
+| Enter Username | When trying to click on the enter button without filling in any username, the user should get an ":exclamation: Please fill out this field" error message | Click on the enter button without filling in any username | The ":exclamation: Please fill out this field" error message appears when the username field remains blank |
+| Enter Username | When trying to enter a username with less than 3 characters, the user should get a “Please note that the username must consist of at least three characters!” alert | Try to enter a username that has less than 3 characters | The “Please note that the username must consist of at least three characters!” alert appears than username consists of 1-2 characters |
+| Enter Username | When entering an approved username, the user should be welcomed to the quiz, and after clicking on the “OK” button, the quiz box should appear on the screen | Enter a username that consists of 3 or more characters, and click on the enter button | “Hello ‘_your entered username_’! Welcome to the quiz!” alert appears on the screen. The quiz box appears on the screen after clicking on “OK” button |
+
+
 ## Credits
 
 ### Media

@@ -59,6 +59,13 @@ There aren't many people who don't like pizza, right?
 | Enter Username | When trying to enter a username with less than 3 characters, the user should get a “Please note that the username must consist of at least three characters!” alert | Try to enter a username that has less than 3 characters | The “Please note that the username must consist of at least three characters!” alert appears than username consists of 1-2 characters |
 | Enter Username | When entering an approved username, the user should be welcomed to the quiz, and after clicking on the “OK” button, the quiz box should appear on the screen | Enter a username that consists of 3 or more characters, and click on the enter button | “Hello ‘_your entered username_’! Welcome to the quiz!” alert appears on the screen. The quiz box appears on the screen after clicking on “OK” button |
 
+### Validator Testing
+
+- CSS
+  - No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator)
+- HTML
+  - No errors were found when passing through the official [W3C Validator](https://validator.w3.org/)
+
 
 ## Credits
 

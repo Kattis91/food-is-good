@@ -17,6 +17,8 @@ function handleSubmit(event) {
         //to make the score-area appear on the screen as soon as the username is validated and approved
         let score = document.getElementById("score-area");
         score.style.display = "block";
+        //to make the quit area appear on the screen as soon as the username is validated and approved
+        finish.style.display = "block";
     }
 }
 
@@ -82,6 +84,13 @@ const aText = document.getElementById("a_text");
 const bText = document.getElementById("b_text");
 const cText = document.getElementById("c_text");
 const submit = document.getElementById("submit");
+
+//To give the user an option to end the quiz at any time during the course of the quiz
+const finish = document.getElementById("finish");
+
+finish.innerHTML = `
+        <h2>Do you want to quit the quiz?</h2>
+        <button onclick="replace()">Yes</button>`;
 
 //To keep track of the current quiz question.
 let currentQuiz = 0;

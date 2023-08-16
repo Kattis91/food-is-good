@@ -49,6 +49,17 @@ input[type=submit]:hover {
     color: #F1AC88;
 }
 
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer > a {
+    font-size: xx-large;
+    padding: 50px;
+    color: #E8E8E8;
+}
+
 #quiz {
     font-family: "Open Sans", sans-serif;
     border: 3px solid black;

@@ -146,6 +146,7 @@ button:hover {
     margin-top: 35px;
 }
 
+
 /* Media queries */
 
 /* For larger to medium screens size from 1300px wide and down */
@@ -168,11 +169,55 @@ button:hover {
     }
 
     .scores {
-        margin-top: 15px;
+        margin-top: 25px;
     }
 
     #finish {
-        margin-top: 15px;
+        margin-top: 25px;
+    }
+   
+}
+
+/* For small screen sizes below 837px width */
+@media screen and (max-width: 837px) {
+
+    .scores {
+        font-weight: normal;
+        font-size: 85%;
     }
 }
 
+/* For small screen sizes below 700px width */
+@media screen and (max-width: 700px) {
+
+    #score-area {
+        width: 100%;
+        margin-left: 80px;
+    }
+
+    footer {
+        margin-bottom: 10px;
+    }
+
+    footer > a {
+        padding: 35px;
+    }
+}
+
+/* For small screen sizes below 490px width */
+@media screen and (max-width: 490px) {
+
+    footer {
+        margin-top: 10px;
+    }
+
+    footer > a {
+        padding: 10px;
+        font-size: x-large;
+    }
+
+    #score-area {
+        width: 100%;
+        margin-left: 20px;
+    }
+}

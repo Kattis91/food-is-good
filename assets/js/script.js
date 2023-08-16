@@ -1,13 +1,13 @@
 //to validate the username that should consist of at least 3 characters
 function handleSubmit(event) {
     event.preventDefault();
-    let username = form.elements['username'].value;
+    let username = form.elements.username.value;
     
     if(username.length < 3) {
         alert("Please note that the username must consist of at least three characters!");
         document.getElementById("username").value = "";
     } else {
-        alert(`Hello ${form.elements['username'].value}! Welcome to the quiz!`);
+        alert(`Hello ${form.elements.username.value}! Welcome to the quiz!`);
         
         // to remove the form as soon as the username is validated and approved
         let formCase = document.getElementById("form");
@@ -39,35 +39,35 @@ const content = [
         correct: "b",
     },
     {
-        question: "Chili sin carne and chili con carne are very similar. Which ingredient is removed from chili sin carne?",
+        question: "Chili sin carne and chili con carne are very similar. There is only one ingredient that tells these two dishes apart. Which one?",
         a: "Meat",
         b: "Tomato",
         c: "Beans",
         correct: "a",
     },
     {
-        question: "Have you heard of famous Swedish meatballs? Which country do they actually come from?",
+        question: "Have you heard of famous Swedish meatballs? The recipe was brought to Sweden by King Charles XII. Which is the country of origin?",
         a: "Greece",
         b: "Turkey",
         c: "Iran",
         correct: "b",
     },
     {
-        question: "What date is the international pizza day celebrated?",
+        question: "Many people love pizza. There is even International Pizza Day. Do you know what date of the year this day is celebrated?",
         a: "January the 1st",
         b: "August the 8th",
         c: "November the 23th",
         correct: "a",
     },
     {
-        question: "Have you heard of 'blini'? What kind of dish is that?",
+        question: "Have you heard of or maybe even tasted 'Blini'? Which country does this dish originate from? What kind of dish is that?",
         a: "Russian pancakes",
         b: "Polish pierogies",
         c: "Hungarian soup",
         correct: "a",
     },
     {
-        question: "You are invited to a party. You receive aperitif. What is that?",
+        question: "Imagine you are invited to a party or a dinner. At some point during the dinner, the host offers everyone so-called aperitif. What is that?",
         a: "Starter",
         b: "Dessert",
         c: "Drink",

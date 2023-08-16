@@ -81,7 +81,7 @@ html, body {
     padding: 25px;
     margin: 0 auto;
     max-width: 500px;
-    height: 340px;
+    height: auto;
     background-color: #F1AC88;
     /*to hide the quiz from the screen to make it appear a little bit later*/
     display: none;

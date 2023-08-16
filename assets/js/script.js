@@ -175,10 +175,13 @@ function results() {
             <button onclick="history.go(0)";>Yes</button>
             <button onclick="replace();">No, thanks!</button>`;
             
-            quiz.style.height = "150px";
+            //to hide the question about quitting the quiz because it is no longer needed
+            finish.style.display ="none";
+
         }
       }
     }
+
 
     function replace() {
         document.write('<h1>Thank you for choosing our site!</h1>');

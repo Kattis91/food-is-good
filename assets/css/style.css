@@ -119,8 +119,8 @@ button:hover {
     display: inline-block;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 30px;
     color: #E8E8E8;
+    margin-top: 30px;
 }
 
 #score {
@@ -159,3 +159,20 @@ button:hover {
         margin-right: 25px;
     }
 }
+
+/* For larger to medium screens size from 1180px wide and down */
+@media screen and (max-width: 1180px) {
+
+    #score-area {
+        width: 25%;
+    }
+
+    .scores {
+        margin-top: 15px;
+    }
+
+    #finish {
+        margin-top: 15px;
+    }
+}
+

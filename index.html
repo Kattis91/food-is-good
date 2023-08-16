@@ -16,46 +16,48 @@
 </head>
 
 <body>
-    <h1>Food is good! <i class="fa-solid fa-pizza-slice"></i></h1>
+    <div class="content">
+        <h1>Food is good! <i class="fa-solid fa-pizza-slice"></i></h1>
      
-    <!--form that make it possible for a user to enter a username before starting the quiz-->
-    <div id="form">
-        <form id="username-form">
-            <label for="username">Enter Username:</label>
-            <br>
-            <input id="username" type="text" name="username" placeholder="Hi! Your username must be at least 3 characters long!" required>
-            <br>
-            <input type="submit" value="enter">
-        </form>
-    </div>
+        <!--form that make it possible for a user to enter a username before starting the quiz-->
+        <div id="form">
+            <form id="username-form">
+                <label for="username">Enter Username:</label>
+                <br>
+                <input id="username" type="text" name="username" placeholder="Hi! Your username must be at least 3 characters long!" required>
+                <br>
+                <input type="submit" value="enter">
+            </form>
+        </div>
     
-    <!--question-and-answers structure. Real questions and answers are added with the help of javaScript-->
-    <div id="quiz">
-        <h2 id="question">Question</h2>
+        <!--question-and-answers structure. Real questions and answers are added with the help of javaScript-->
+        <div id="quiz">
+            <h2 id="question">Question</h2>
 
-        <div>
-            <input id="a" type="radio" name="answer" class="answer">
-            <label class="answer" for="a" id="a_text">Answer</label>
-        </div>
-        <div>
-            <input id="b" type="radio" name="answer" class="answer">
-            <label class="answer" for="b" id="b_text">Answer</label>
-        </div>
-        <div>
-            <input id="c" type="radio" name="answer" class="answer">
-            <label class="answer" for="c" id="c_text">Answer</label>
-        </div>
+            <div>
+                <input id="a" type="radio" name="answer" class="answer">
+                <label class="answer" for="a" id="a_text">Answer</label>
+            </div>
+            <div>
+                <input id="b" type="radio" name="answer" class="answer">
+                <label class="answer" for="b" id="b_text">Answer</label>
+            </div>
+            <div>
+                <input id="c" type="radio" name="answer" class="answer">
+                <label class="answer" for="c" id="c_text">Answer</label>
+            </div>
 
-        <div>
-            <button id="submit">Submit</button>
+            <div>
+                <button id="submit">Submit</button>
+            </div>
         </div>
-    </div>
     
-    <!--to enable a user to instantly see if the answer is right or wrong-->
-    <div id="score-area">
-        <p class="scores">Correct Answers: <span id="score">0</span></p>
-        <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
-    </div>
+        <!--to enable a user to instantly see if the answer is right or wrong-->
+        <div id="score-area">
+            <p class="scores">Correct Answers: <span id="score">0</span></p>
+            <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
+        </div>
+    </div>  
 
     <footer class="social">
         <a href="https://www.facebook.com" rel="noopener" target="_blank"

@@ -134,6 +134,18 @@ button:hover {
     font-size: large;
 }
 
+#finish {
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 500px;
+    background-color: #F1AC88;
+    /*to hide the quit area from the screen to make it appear a little bit later*/
+    display: none;
+    margin-top: 35px;
+}
+
 /* Media queries */
 
 /* For larger to medium screens size from 1300px wide and down */

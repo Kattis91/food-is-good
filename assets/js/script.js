@@ -4,10 +4,17 @@ function handleSubmit(event) {
     let username = form.elements.username.value;
     
     if(username.length < 3) {
-        alert("Please note that the username must consist of at least three characters!");
+        Swal.fire({icon: 'error',
+                   title: 'Ooops',
+                   text: 'Please note that the username must consist of at least three characters!'
+        });
         document.getElementById("username").value = "";
     } else {
-        alert(`Hello ${form.elements.username.value}! Welcome to the quiz!`);
+        Swal.fire({icon: 'info',
+                   title: 'Welcome to the food quiz!',
+                   text: `Hello ${form.elements.username.value}!
+                          Happy to see you here! The quiz consists of 6 questions, and you can quit the quiz any time you want!`
+    });
         
         // to remove the form as soon as the username is validated and approved
         let formCase = document.getElementById("form");

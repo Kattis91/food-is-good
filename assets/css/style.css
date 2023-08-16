@@ -125,11 +125,13 @@ button:hover {
 
 #score {
     margin-right: 50px;
-    color: green;
+    font-weight: bold;
+    font-size: large;
 }
 
 #incorrect {
-    color: red;
+    font-weight: bold;
+    font-size: large;
 }
 
 /* Media queries */

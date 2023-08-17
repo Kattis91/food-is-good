@@ -160,7 +160,7 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 - Instructions on how to to fix a sticky footer using flexbox are taken from [CSS-TRICKS](https://css-tricks.com/couple-takes-sticky-footer/).
 
-- Information on how to use Sweet alerts is taken from [SweetAlert2](https://sweetalert2.github.io/).
+- Information on how to use Sweet alerts is taken from [SweetAlert2](https://sweetalert2.github.io/). The link is copied from [jsdelivr CDN](https://www.jsdelivr.com/package/npm/sweetalert2).
 
 ## Deployment
 

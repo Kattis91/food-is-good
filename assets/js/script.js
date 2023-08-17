@@ -36,8 +36,7 @@ form.addEventListener("submit", handleSubmit);
  Create an array of objects where each object include
  a question, three answer alternatives and the correct answer
 */
-const content = [
-    
+const content = [  
     { 
         question: "What is the name of the traditional Spanish saffron-spiced rice dish with chicken and seafood cooked in a large pan?",
         a: "Risotto",
@@ -82,7 +81,6 @@ const content = [
     },
 ];
 
-
 //Create variables to access elements from a HTML document.
 const quiz = document.getElementById("quiz");
 let answerElements = document.getElementsByClassName("answer");
@@ -92,7 +90,7 @@ let bText = document.getElementById("b_text");
 let cText = document.getElementById("c_text");
 let submit = document.getElementById("submit");
 
-//To give the user an option to end the quiz at any time during the course of the quiz
+//To give a user an option to end the quiz at any time during the course of the quiz
 const finish = document.getElementById("finish");
 
 finish.innerHTML = `
@@ -117,10 +115,9 @@ function startQuiz() {
 //to clear the previous selection before displaying a new quiz question
 function deselectAnswers() {
     for (let i = 0; i < answerElements.length; i++) {
-    answerElements[i].checked = false;
+        answerElements[i].checked = false;
     }
 }
-
 //to return the selected answer
 function getSelected() {
     let answer;
@@ -130,17 +127,13 @@ function getSelected() {
             answer = answerElements[i].id;
         }
     }
-
     return answer;
 }
-
 //to increase the score when the right answer is selected
 function increaseScore() {
-
     let oldScore = document.getElementById('score').innerText;
     document.getElementById('score').innerText = ++oldScore;
 }
-
 //to increase amount of incorrect answers when the wrong answer is selected
 function increaseWrongAnswer() {
     let oldScore = document.getElementById('incorrect').innerText;
@@ -150,26 +143,19 @@ function increaseWrongAnswer() {
 //to start function results() when the submit button is clicked 
 submit.addEventListener("click", results);
 
-function results() {
-    
+function results() { 
     const answer = getSelected();
-    
-     if(answer) {
+    if(answer) {
         if (answer === content[currentQuiz].correct) {
-           increaseScore();
-           
+            increaseScore();   
         } else {
             increaseWrongAnswer();
         }
-        
         currentQuiz++;
-        
+
         if (currentQuiz < content.length) {
-            
-            startQuiz();
-            
+            startQuiz();   
         } else {
-            
             quiz.innerHTML = `
             <h2>Would you like to retake the quiz?</h2>
             <button onclick="retakeQuiz();">Yes</button>
@@ -177,16 +163,14 @@ function results() {
             
             //to hide the question about quitting the quiz because it is no longer needed
             finish.style.display ="none";
-
         }
       }
     }
     
-    function retakeQuiz() {
-
-        currentQuiz = 0;
-
-        quiz.innerHTML = `
+function retakeQuiz() {
+    currentQuiz = 0;
+    //to return the innerHTML of the quiz
+    quiz.innerHTML = `
         <h2 id="question">Question</h2>
 
             <div>
@@ -206,20 +190,19 @@ function results() {
                 <button id="submit">Submit</button>
             </div>`;
       
-        question = document.getElementById("question");
-        aText = document.getElementById("a_text");
-        bText = document.getElementById("b_text");
-        cText = document.getElementById("c_text");
-        submit = document.getElementById("submit");
+    question = document.getElementById("question");
+    aText = document.getElementById("a_text");
+    bText = document.getElementById("b_text");
+    cText = document.getElementById("c_text");
+    submit = document.getElementById("submit");
 
-        submit.addEventListener("click", results);
+    submit.addEventListener("click", results);
         
-        startQuiz();
-    
-        // Reset score and incorrect answer counts
-        document.getElementById('score').innerText = "0";
-        document.getElementById('incorrect').innerText = "0";
-
-        finish.style.display = "block";
-        }
+    startQuiz();
+    // Reset score and incorrect answer counts
+    document.getElementById('score').innerText = "0";
+    document.getElementById('incorrect').innerText = "0";
+    //to make the quitting area appear on the screen again
+    finish.style.display = "block";
+}
 

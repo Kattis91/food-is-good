@@ -2,6 +2,17 @@
 
 Food is good is a website that contains a quiz with food-related questions. The quiz can be fun for both foodies and beginners.
 
+## Wireframes
+
+Wireframes were done with the help of [Figma](https://www.figma.com).
+
+ - Username and quiz pages for the desktop:
+ ![image](assets/images/readme-images/wireframes-desktop.jpg)
+
+ - Username and quiz pages for mobile:
+ ![image](assets/images/readme-images/wireframes-mobile.jpg)
+
+
 ## Features
 
 ### Heading

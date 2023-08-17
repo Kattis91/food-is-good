@@ -1,6 +1,8 @@
 # FOOD IS GOOD
 
-Food is good is a website that contains a quiz with food-related questions. The quiz can be fun for both foodies and beginners.
+Food is good is a website that contains a quiz with food-related questions. The quiz can be fun for both foodies and people who want to learn something new. 
+
+The quiz is easy to navigate, and you get to know directly if you answered correctly. If you answer incorrectly, you will not get the information about what answer is the correct answer. That means you can retake the quiz as many times as you want. That's funny, right?
 
 ![image](assets/images/readme-images/am-i-responsive.jpg)
 
@@ -19,7 +21,7 @@ Wireframes were done with the help of [Figma](https://www.figma.com).
 
 ![image](assets/images/readme-images/heading.jpg)
 
-- Grabs attention and speaks for itself. Now everybody knows what the quiz is about.
+- The heading grabs attention and speaks for itself. Now everybody knows what the quiz is about.
 
 - The pizza font is added for an even more colorful imprint.
 There aren't many people who don't like pizza, right?
@@ -46,15 +48,15 @@ There aren't many people who don't like pizza, right?
 
 - This section shows correct and incorrect answers. Their value is set to 0.
 
-- If a user answers correctly, a point is added to correct answers area.
+- If a user answers correctly, a point is added to the area with correct answers.
 
-- If a user answers wrong, a point is added to incorrect answers area.
+- If a user answers incorrectly, a point is added to the area with incorrect answers.
 
 ### Quit area
 
 ![image](assets/images/readme-images/quit-area.jpg)
 
-- This section gives user an option to end the quiz at any time.
+- This section gives the user an option to end the quiz at any time.
 
 - Clicking on the YES button will take the user to the page with the username form.
 
@@ -102,25 +104,25 @@ I used Google Chrome developer tools to confirm responsiveness on various screen
 
 | Feature | Expect | Action | Result | Pass/Fail |
 |---------|--------|--------|--------|-----------|
-| Enter Username | When trying to click on the enter button without filling in any username, the user should get an ":exclamation: Please fill out this field" error message | Click on the enter button without filling in any username | The ":exclamation: Please fill out this field" error message appears when the username field remains blank | Pass |
-| Enter Username | When trying to enter a username with less than 3 characters, the user should get a “Ooops..Please note that the username must consist of at least three characters!” error message | Try to enter a username that has less than 3 characters | The “Ooops.. Please note that the username must consist of at least three characters!” error message appears on the screen | Pass |
-| Enter Username | When entering an approved username, the user should be welcomed to the quiz, and the quiz box, score area and the quitting box should appear on the screen | Enter a username that consists of 3 or more characters, and click on the enter button | “Welcome to the food quiz! Hi ‘_your entered username_’! Happy to see you here! The quiz consists of 6 questions, and you can quit the quiz any time you want!” information message appears on the screen. The quiz box, the score area and the quitting area appears on the screen and got placed behind the information message. They become fully visible after clicking on OK-button | Pass |
-| Choose an answer | When a user chooses an answer and clicks on the submit button, the next question should appear on the screen | Choose an answer and click on the submit button | Next question appears on the screen | Pass |
-| Selecting the correct answer | When a user selects the correct answer, one point should be added to the area with correct answers | Select the correct answer and click on the submit button | The correct answers area got increased by one point | Pass |
+| Enter Username | When trying to click on the enter button without filling in any username, the user should get an ":exclamation: Please fill out this field" error message. | Click on the enter button without filling in any username. | The ":exclamation: Please fill out this field" error message appears when the username field remains blank. | Pass |
+| Enter Username | When trying to enter a username with less than 3 characters, the user should get an “Oops..Please note that the username must consist of at least three characters!” error message. | Try to enter a username that has less than 3 characters. | The “Oops.. Please note that the username must consist of at least three characters!” error message appears on the screen. | Pass |
+| Enter Username | After entering an approved username, the user should be welcomed to the quiz. The quiz box, score area, and quitting box should appear on the screen. | Enter a username that consists of 3 or more characters, and click on the enter button. | “Welcome to the food quiz! Hi ‘_your entered username_’! Happy to see you here! The quiz consists of 6 questions, and you can quit the quiz any time you want!” information message appears on the screen. The quiz box, the score area and the quitting area appears on the screen and got placed behind the information message. They become fully visible after clicking on the OK button. | Pass |
+| Choose an answer | When a user chooses an answer and clicks the submit button, the next question should appear on the screen. | Choose an answer and click on the submit button. | Next question appears on the screen. | Pass |
+| Selecting the correct answer | When a user selects the correct answer, one point should be added to the area with the correct answers. | Select the correct answer and click on the submit button. | The correct answers area got increased by one point. | Pass |
 | Selecting the wrong answer | When a user selects the wrong answer, one point should be added to the area with incorrect answers | Select the wrong answer and click on the submit button | The incorrect answers area got increased by one point | Pass |
-| The quitting area | When clicking on YES-button in the "Do you want to quit the quiz?" area, a user should be taken to the first page where it is possible to enter a username | Click on the YES-button in the "Do you want to quit the quiz?" box | The page with the username form appears on the screen | Pass |
-| Answering the last question | When answering the last question of the quiz, a user should come to the page that asks if the user wants to retake the quiz. The user gets two alternatives: “Yes” and “No, thanks!” | Select an answer to the last question and click on the submit button | “Would you like to retake the quiz?”-question appears on the screen with two alternatives (“Yes” and “No, thanks!”) | Pass |
-| “Yes”-alternative | When clicking on “Yes”, the user should be taken to the first question of the quiz | Click on YES-button | The first question of the quiz appears on the screen | Pass |
-| “No, thanks!”-alternative | When clicking on “No, thanks!”, the user should be taken to the first page where it is possible to enter a username | Click on NO, THANKS!-button | The page with the username form appears on the screen | Pass |
+| The quitting area | When clicking on the YES button in the "Do you want to quit the quiz?" area, a user should be taken to the first page where it is possible to enter a username. | Click on the YES button in the "Do you want to quit the quiz?" box. | The page with the username form appears on the screen. | Pass |
+| Answering the last question | When answering the last question of the quiz, a user should come to the page that asks if the user wants to retake the quiz. The user gets two alternatives: “Yes” and “No, thanks!”. | Select an answer to the last question and click on the submit button. | “Would you like to retake the quiz?”-question appears on the screen with two alternatives (“Yes” and “No, thanks!”). | Pass |
+| “Yes”-alternative | When clicking on the YES button, the user should be taken to the first question of the quiz. | Click on YES-button. | The first question of the quiz appears on the screen. | Pass |
+| “No, thanks!”-alternative | When clicking on the NO, THANKS button, the user should be taken to the first page where it is possible to enter a username. | Click on the NO, THANKS! button. | The page with the username form appears on the screen. | Pass |
 
 ### Validator Testing
 
 - CSS
-  - No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator)
+  - No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator).
 - HTML
-  - No errors were found when passing through the official [W3C Validator](https://validator.w3.org/)
+  - No errors were found when passing through the official [W3C Validator](https://validator.w3.org/).
 - JavaScript
-  - No errors were found when passing through the official [JSHint Validator](https://jshint.com/)
+  - No errors were found when passing through the official [JSHint Validator](https://jshint.com/).
   - Validator gave warnings about one undefined variable(Swal) and one unused variable (retakeQuiz).
   
 

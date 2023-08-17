@@ -85,12 +85,12 @@ const content = [
 
 //Create variables to access elements from a HTML document.
 const quiz = document.getElementById("quiz");
-const answerElements = document.getElementsByClassName("answer");
-const question = document.getElementById("question");
-const aText = document.getElementById("a_text");
-const bText = document.getElementById("b_text");
-const cText = document.getElementById("c_text");
-const submit = document.getElementById("submit");
+let answerElements = document.getElementsByClassName("answer");
+let question = document.getElementById("question");
+let aText = document.getElementById("a_text");
+let bText = document.getElementById("b_text");
+let cText = document.getElementById("c_text");
+let submit = document.getElementById("submit");
 
 //To give the user an option to end the quiz at any time during the course of the quiz
 const finish = document.getElementById("finish");
@@ -172,7 +172,7 @@ function results() {
             
             quiz.innerHTML = `
             <h2>Would you like to retake the quiz?</h2>
-            <button onclick="history.go(0)";>Yes</button>
+            <button onclick="retakeQuiz();">Yes</button>
             <button onclick="replace();">No, thanks!</button>`;
             
             //to hide the question about quitting the quiz because it is no longer needed
@@ -181,6 +181,45 @@ function results() {
         }
       }
     }
+    
+    function retakeQuiz() {
+
+        currentQuiz = 0;
+
+        quiz.innerHTML = `
+        <h2 id="question">Question</h2>
+
+            <div>
+                <input id="a" type="radio" name="answer" class="answer">
+                <label class="answer" for="a" id="a_text">Answer</label>
+            </div>
+            <div>
+                <input id="b" type="radio" name="answer" class="answer">
+                <label class="answer" for="b" id="b_text">Answer</label>
+            </div>
+            <div>
+                <input id="c" type="radio" name="answer" class="answer">
+                <label class="answer" for="c" id="c_text">Answer</label>
+            </div>
+
+            <div>
+                <button id="submit">Submit</button>
+            </div>`;
+      
+        question = document.getElementById("question");
+        aText = document.getElementById("a_text");
+        bText = document.getElementById("b_text");
+        cText = document.getElementById("c_text");
+        submit = document.getElementById("submit");
+
+        submit.addEventListener("click", results);
+        
+        startQuiz();
+    
+        // Reset score and incorrect answer counts
+        document.getElementById('score').innerText = "0";
+        document.getElementById('incorrect').innerText = "0";
+        }
 
 
     function replace() {

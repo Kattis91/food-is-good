@@ -119,6 +119,10 @@ I used Google Chrome developer tools to confirm responsiveness on various screen
   - No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator)
 - HTML
   - No errors were found when passing through the official [W3C Validator](https://validator.w3.org/)
+- JavaScript
+  - No errors were found when passing through the official [JSHint Validator](https://jshint.com/)
+  - Validator gave warnings about one undefined variable(Swal) and one unused variable (retakeQuiz).
+  
 
 ### Lighthouse
 

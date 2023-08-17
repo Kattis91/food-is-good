@@ -61,6 +61,10 @@ There aren't many people who don't like pizza, right?
 | Choose an answer | When a user chooses an answer and clicks on the submit button, the next question should appear on the screen | Choose an answer and click on the submit button | Next question appears on the screen |
 | Selecting the correct answer | When a user selects the correct answer, one point should be added to the area with correct answers | Select the correct answer and click on the submit button | The correct answers area got increased by one point |
 | Selecting the wrong answer | When a user selects the wrong answer, one point should be added to the area with incorrect answers | Select the wrong answer and click on the submit button | The incorrect answers area got increased by one point |
+| The quitting area | When clicking on YES-button in the "Do you want to quit the quiz?" area, a user should be taken to the first page where it is possible to enter a username | Click on the YES-button in the "Do you want to quit the quiz?" box | The page with the username form appears on the screen |
+| Answering the last question | When answering the last question of the quiz, a user should come to the page that asks if the user wants to retake the quiz. The user gets two alternatives: “Yes” and “No, thanks!” | Select an answer to the last question and click on the submit button | “Would you like to retake the quiz?”-question appears on the screen with two alternatives (“Yes” and “No, thanks!”) |
+| “Yes”-alternative | When clicking on “Yes”, the user should be taken to the first question of the quiz | Click on YES-button | The first question of the quiz appears on the screen |
+| “No, thanks!”-alternative | When clicking on “No, thanks!”, the user should be taken to the first page where it is possible to enter a username | Click on NO, THANKS!-button | The page with the username form appears on the screen |
 
 ### Validator Testing
 

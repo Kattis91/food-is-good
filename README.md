@@ -32,7 +32,13 @@ There aren't many people who don't like pizza, right?
 
 - This section allows users to enter a username before starting a quiz.
 
-- It gives users information about how long a  username should be to get approved.
+- It gives users information about how long a username should be to get approved.
+
+   - The error message that appears when the entered username is not approved:
+   ![image](assets/images/readme-images/not-approved-username.jpg)
+
+   - The info message that appears when the entered username is approved:
+   ![image](assets/images/readme-images/approved-username.jpg)
 
 ### Quiz
 

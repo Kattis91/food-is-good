@@ -49,6 +49,30 @@ There aren't many people who don't like pizza, right?
 
 - The user can also choose to exit the quiz.
 
+## User Experience (UX)
+
+### Key Project Goal
+
+The site aims to offer a simple but still challenging quiz about food. The number of questions is low, so it goes quickly and smoothly to participate and doesn't take too much time from the user's everyday life. 
+
+The future goal is to be able to offer other theme quizzes.
+
+### Target Audience
+
+The quiz can be fun for both foodies and beginners. In other words, for everybody who wants to test their knowledge or learn something new about food.
+
+### User Stories
+
+#### As a site visitor I want to be able to:
+
+  - Easily enter a username.
+  - Get information about what went wrong if the chosen username doesn’t get approved.
+  - Easily answer quiz questions.
+  - Directly see if the answer was right or wrong.
+  - Retake the quiz any time I want. 
+  - Quit the quiz any time I want.
+  - View the site on a range of device sizes. 
+
 ## Testing
 
 ### Manual Testing

@@ -4,16 +4,18 @@ function handleSubmit(event) {
     let username = form.elements.username.value;
     
     if(username.length < 3) {
-        Swal.fire({icon: 'error',
-                   title: 'Ooops',
-                   text: 'Please note that the username must consist of at least three characters!'
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops',
+            text: 'Please note that the username must consist of at least three characters!'
         });
         document.getElementById("username").value = "";
     } else {
-        Swal.fire({icon: 'info',
-                   title: 'Welcome to the food quiz!',
-                   text: `Hello ${form.elements.username.value}!
-                          Happy to see you here! The quiz consists of 6 questions, and you can quit the quiz any time you want!`
+        Swal.fire({
+            icon: 'info',
+            title: 'Welcome to the food quiz!',
+            text: `Hello ${form.elements.username.value}! 
+                   Happy to see you here! The quiz consists of 6 questions, and you can quit the quiz any time you want!`
     });
         
         // to remove the form as soon as the username is validated and approved

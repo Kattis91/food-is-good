@@ -97,7 +97,7 @@ const finish = document.getElementById("finish");
 
 finish.innerHTML = `
         <h2>Do you want to quit the quiz?</h2>
-        <button onclick="replace()">Yes</button>`;
+        <button onclick="history.go(0)">Yes</button>`;
 
 //To keep track of the current quiz question.
 let currentQuiz = 0;

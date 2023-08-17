@@ -221,8 +221,3 @@ function results() {
         document.getElementById('incorrect').innerText = "0";
         }
 
-
-    function replace() {
-        document.write('<h1>Thank you for choosing our site!</h1>');
-        document.write('<p>Have a nice week and come back for our other theme quizzes</p>');
-    }

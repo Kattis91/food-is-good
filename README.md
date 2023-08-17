@@ -34,11 +34,13 @@ There aren't many people who don't like pizza, right?
 
 - It gives users information about how long a username should be to get approved.
 
-   - The error message that appears when the entered username is not approved:
-   ![image](assets/images/readme-images/not-approved-username.jpg)
+- The error message that appears when the entered username is not approved:
 
-   - The info message that appears when the entered username is approved:
-   ![image](assets/images/readme-images/approved-username.jpg)
+![image](assets/images/readme-images/not-approved-username.jpg)
+
+- The info message that appears when the entered username is approved:
+
+![image](assets/images/readme-images/approved-username.jpg)
 
 ### Quiz
 
@@ -118,7 +120,7 @@ I used Google Chrome developer tools to confirm responsiveness on various screen
 | Selecting the wrong answer | When a user selects the wrong answer, one point should be added to the area with incorrect answers | Select the wrong answer and click on the submit button | The incorrect answers area got increased by one point | Pass |
 | The quitting area | When clicking on the YES button in the "Do you want to quit the quiz?" area, a user should be taken to the first page where it is possible to enter a username. | Click on the YES button in the "Do you want to quit the quiz?" box. | The page with the username form appears on the screen. | Pass |
 | Answering the last question | When answering the last question of the quiz, a user should come to the page that asks if the user wants to retake the quiz. The user gets two alternatives: “Yes” and “No, thanks!”. | Select an answer to the last question and click on the submit button. | “Would you like to retake the quiz?”-question appears on the screen with two alternatives (“Yes” and “No, thanks!”). | Pass |
-| “Yes”-alternative | When clicking on the YES button, the user should be taken to the first question of the quiz. | Click on YES-button. | The first question of the quiz appears on the screen. | Pass |
+| “Yes”-alternative | When clicking on the YES button, the user should be taken to the first question of the quiz. The number of correct and incorrect answers should be set to zero.| Click on the YES button. | The first question of the quiz appears on the screen. The amount of both correct and incorrect answers is set to zero. | Pass |
 | “No, thanks!”-alternative | When clicking on the NO, THANKS button, the user should be taken to the first page where it is possible to enter a username. | Click on the NO, THANKS! button. | The page with the username form appears on the screen. | Pass |
 
 ### Validator Testing

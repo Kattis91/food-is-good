@@ -39,6 +39,14 @@ There aren't many people who don't like pizza, right?
 
 - If a user answers wrong, a point is added to incorrect answers area.
 
+### Quit area
+
+![image](assets/images/readme-images/quit-area.jpg)
+
+- This section gives user an option to end the quiz at any time.
+
+- Clicking on the YES button will take the user to the page with the username form.
+
 ### Next step
 
 ![image](assets/images/readme-images/next-step.jpg)

@@ -101,6 +101,11 @@ I used Google Chrome developer tools to confirm responsiveness on various screen
 - HTML
   - No errors were found when passing through the official [W3C Validator](https://validator.w3.org/)
 
+### Lighthouse
+
+I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
+
+![image](assets/images/readme-images/lighthouse.jpg)
 
 ## Credits
 

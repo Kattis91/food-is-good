@@ -219,5 +219,7 @@ function results() {
         // Reset score and incorrect answer counts
         document.getElementById('score').innerText = "0";
         document.getElementById('incorrect').innerText = "0";
+
+        finish.style.display = "block";
         }
 

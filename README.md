@@ -75,6 +75,10 @@ The quiz can be fun for both foodies and beginners. In other words, for everybod
 
 ## Testing
 
+In order to thoroughly test my website, I conducted a series of tests on various browsers including Google Chrome, Safari, and Mozilla Firefox. I also tested on multiple devices such as iPhone XS, iPhone 13 mini, iPhone SE, and Samsung Galaxy S10.
+
+I used Google Chrome developer tools to confirm responsiveness on various screen sizes.
+
 ### Manual Testing
 
 | Feature | Expect | Action | Result |

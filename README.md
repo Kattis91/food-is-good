@@ -8,13 +8,9 @@ Food is good is a website that contains a quiz with food-related questions. The 
 
 Wireframes were done with the help of [Figma](https://www.figma.com).
 
- - Username and quiz pages for the desktop:
- 
- ![image](assets/images/readme-images/wireframes-desktop.jpg)
+ - Username and quiz pages for [desktop](https://github.com/Kattis91/food-is-good/blob/main/assets/images/readme-images/wireframes-desktop.jpg).
 
- - Username and quiz pages for mobile:
-
- ![image](assets/images/readme-images/wireframes-mobile.jpg)
+ - Username and quiz pages for [mobile](https://github.com/Kattis91/food-is-good/blob/main/assets/images/readme-images/wireframes-mobile.jpg).
 
 
 ## Features

@@ -173,7 +173,7 @@ function results() {
             quiz.innerHTML = `
             <h2>Would you like to retake the quiz?</h2>
             <button onclick="retakeQuiz();">Yes</button>
-            <button onclick="replace();">No, thanks!</button>`;
+            <button onclick="history.go(0);">No, thanks!</button>`;
             
             //to hide the question about quitting the quiz because it is no longer needed
             finish.style.display ="none";

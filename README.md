@@ -135,6 +135,10 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 - [Font Awesome](https://fontawesome.com/icons/pizza-slice?f=classic&s=solid) was used to add a pizza icon to the heading.
 
+- Instructions on how to to fix a sticky footer using flexbox are taken from [CSS-TRICKS](https://css-tricks.com/couple-takes-sticky-footer/).
+
+- Information on how to use Sweet alerts is taken from [SweetAlert2](https://sweetalert2.github.io/).
+
 ## Deployment
 
 1. Log in to GitHub. 

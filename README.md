@@ -6,6 +6,8 @@ The quiz is easy to navigate, and you get to know directly if you answered corre
 
 ![image](assets/images/readme-images/am-i-responsive.jpg)
 
+The live link can be found here - https://kattis91.github.io/food-is-good/
+
 ## Wireframes
 
 Wireframes were done with the help of [Figma](https://www.figma.com).
